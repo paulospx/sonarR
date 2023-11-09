@@ -1,6 +1,21 @@
-lintr_in <- data.table::as.data.table(lintr::lint_dir())
+# sonarR
+#
+# this is a function named 'sonarScan' that lints your code located in the
+# 'dir' folder and produces a JSON result file named in 'outFile'
+# The output will contain the linting issues of your code that can be loaded
+# into SonarQube
+#h
+# You can learn more about package authoring with RStudio at:
+#
+#   http://r-pkgs.had.co.nz/
+#
 
-mapping <- read.table(text = "linter       type effortMinutes severity ruleId
+sonarScan <- function(dir = "R", outFile = "result_json_output.json") {
+  lintr_in <- data.table::as.data.table(lintr::lint_dir("R"))
+
+  mapping <-
+    read.table(
+      text = "linter       type effortMinutes severity ruleId
  1:              object_usage_linter CODE_SMELL             5    MINOR rule11
  2:             absolute_path_linter CODE_SMELL             5    MINOR  rule2
  3:          nonportable_path_linter CODE_SMELL             5    MINOR  rule3
@@ -35,31 +50,42 @@ mapping <- read.table(text = "linter       type effortMinutes severity ruleId
 32:      undesirable_function_linter CODE_SMELL             5    MINOR rule32
 33:      undesirable_operator_linter CODE_SMELL             5    MINOR rule33
 34:    unneeded_concatenation_linter CODE_SMELL             5    MINOR rule34
-35: other_non_specified_in_the_table CODE_SMELL             5    MINOR rule35", header = TRUE)
+35: other_non_specified_in_the_table CODE_SMELL             5    MINOR rule35",
+      header = TRUE
+    )
 
-lintr_out <- merge(lintr_in, mapping, by = "linter", all.x = TRUE, suffixes = c("_lint_own", ""))
+  lintr_out <-
+    merge(
+      lintr_in,
+      mapping,
+      by = "linter",
+      all.x = TRUE,
+      suffixes = c("_lint_own", "")
+    )
 
-lintr_out[is.na(type), type := "CODE_SMELL"
-            ][is.na(effortMinutes), effortMinutes := 10
-              ][is.na(severity), severity := "INFO"
-                ][is.na(ruleId), ruleId := "rule999"]
+  lintr_out[is.na(type), type := "CODE_SMELL"][is.na(effortMinutes), effortMinutes := 10][is.na(severity), severity := "INFO"][is.na(ruleId), ruleId := "rule999"]
 
-lintr_out[, engineId := "test"]
-# startLine and endLine always the same from line_number
-# startColumn always 0, endColumn length of line unless empty then 1
-lintr_out[ , startLine := line_number][ , endLine := line_number][, startColum := 0][ , endColumn := nchar(line)][endColumn == 0, endColumn := 1]
+  lintr_out[, engineId := "test"]
+  # startLine and endLine always the same from line_number
+  # startColumn always 0, endColumn length of line unless empty then 1
+  lintr_out[, startLine := line_number][, endLine := line_number][, startColum := 0][, endColumn := nchar(line)][endColumn == 0, endColumn := 1]
 
-result <- list(issues =
-                 vctrs::data_frame(
-                   engineId = lintr_out[ , engineId], ruleId = lintr_out[ , ruleId], severity = lintr_out[ , severity], type = lintr_out[ , type],
-                   primaryLocation = vctrs::data_frame(
-                     message = lintr_out[ , message],
-                     filePath = lintr_out[ , filename],
-                     textRange = lintr_out[, .(startLine, endLine, startColum, endColumn)]
-                     ),
-                   effortMinutes = lintr_out[ , effortMinutes]
-                   )
-               )
+  result <- list(
+    issues =
+      vctrs::data_frame(
+        engineId = lintr_out[, engineId],
+        ruleId = lintr_out[, ruleId],
+        severity = lintr_out[, severity],
+        type = lintr_out[, type],
+        primaryLocation = vctrs::data_frame(
+          message = lintr_out[, message],
+          filePath = lintr_out[, filename],
+          textRange = lintr_out[, .(startLine, endLine, startColum, endColumn)]
+        ),
+        effortMinutes = lintr_out[, effortMinutes]
+      )
+  )
 
-json_data <- jsonlite::toJSON(result, pretty = TRUE)
-write(json_data, "result_json_output.json")
+  json_data <- jsonlite::toJSON(result, pretty = TRUE)
+  write(json_data, outFile)
+}
