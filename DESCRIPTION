@@ -1,11 +1,14 @@
 Package: sonarR
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Version: 0.9.1
+Author: Ania Rusinek <> and Paulo P. <pssp25@hotmail.com>
+Maintainer: The package maintainer <pssp25@hotmail.com>
+Description: This package adds support for the R language into SonarQube. 
+  It uses output from the `lintr` tool, which is processed by the plugin and 
+  uploaded into the SonarQube server. The plugin reports issues 
+  found by `lintr` (by processing its output) and has planned features such
+  as syntax highlighting, code coverage, and code statistics.
 License: MIT
 Encoding: UTF-8
 LazyData: true
