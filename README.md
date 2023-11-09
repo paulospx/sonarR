@@ -81,7 +81,7 @@ Please ensure that your code follows the linting rules specified in the `config.
 
 ## Issues
 
-If you encounter any issues with the linting scanner, please check the [issue tracker]([Issues · paulospx/sonarR (github.com)](https://github.com/paulospx/sonarR/issues)) to see if your issue has already been reported. If not, please [create a new issue](https://github.com/paulospx/sonarR/issues/new) and provide as much detail as possible.
+If you encounter any issues with the linting scanner, please check the [issue tracker](https://github.com/paulospx/sonarR/issues) to see if your issue has already been reported. If not, please [create a new issue](https://github.com/paulospx/sonarR/issues/new) and provide as much detail as possible.
 
 ## License
 
