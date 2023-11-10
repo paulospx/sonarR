@@ -14,11 +14,11 @@ Linting helps maintain code quality and consistency, making it an essential part
 
 ## Table of Contents
 
-- [Installation](https://chat.openai.com/c/fa4a5101-e9db-4f60-b66c-4c234b377455#installation)
-- [Usage](https://chat.openai.com/c/fa4a5101-e9db-4f60-b66c-4c234b377455#usage)
-- [Configuration](https://chat.openai.com/c/fa4a5101-e9db-4f60-b66c-4c234b377455#configuration)
-- [Contributing](https://chat.openai.com/c/fa4a5101-e9db-4f60-b66c-4c234b377455#contributing)
-- [License](https://chat.openai.com/c/fa4a5101-e9db-4f60-b66c-4c234b377455#license)
+- [Installation]()
+- [Usage]()
+- [Configuration]()
+- [Contributing]()
+- [License]()
 
 ## Installation
 
