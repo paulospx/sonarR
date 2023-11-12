@@ -14,11 +14,11 @@ Linting helps maintain code quality and consistency, making it an essential part
 
 ## Table of Contents
 
-- [Installation]()
-- [Usage]()
-- [Configuration]()
-- [Contributing]()
-- [License]()
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Configuration](#Configuration)
+- [Contributing](#Contributing)
+- [License](#License)
 
 ## Installation
 
