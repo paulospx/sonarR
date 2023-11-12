@@ -37,7 +37,10 @@ Linting helps maintain code quality and consistency, making it an essential part
 3. Install the required dependencies.
 
    ```bash
-   # Install dependencies script
+   Rscript -e "install.packages('data.table')"
+   Rscript -e 'install.packages("lintr")'
+   Rscript -e 'install.packages("devtools")'
+   Rscript -e 'install.packages("roxygen2")'
    ```
 
 ## Usage
@@ -45,7 +48,7 @@ Linting helps maintain code quality and consistency, making it an essential part
 1. Run the scanner on your R project directory.
 
    ```bash
-   sonarR::scan(dir="R",outFile = "result.jso")
+   sonarR::scan(dir="R",outFile = "result.json")
    ```
 
 2. The tool will scan your R code in the `/R` folder and generate a JSON report named `linting_report.json`.
