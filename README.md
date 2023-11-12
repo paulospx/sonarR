@@ -45,7 +45,7 @@ Linting helps maintain code quality and consistency, making it an essential part
 1. Run the scanner on your R project directory.
 
    ```bash
-   sonarScan("R", "linting_report.json")
+   sonarR::scan(dir="R",outFile = "result.jso")
    ```
 
 2. The tool will scan your R code in the `/R` folder and generate a JSON report named `linting_report.json`.

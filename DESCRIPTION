@@ -1,7 +1,7 @@
 Package: sonarR
 Type: Package
 Title: This package adds support for the R language into SonarQube
-Version: 0.9.1
+Version: 0.9.3
 Author: Ania Rusinek <> and Paulo P. <pssp25@hotmail.com>
 Maintainer: The package maintainer <pssp25@hotmail.com>
 Description: This package adds support for the R language into SonarQube. 

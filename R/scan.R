@@ -10,7 +10,7 @@
 #  -https://github.com/paulospx/sonarR
 #
 
-sonarScan <- function(dir = "R", outFile = "result_json_output.json") {
+scan <- function(dir = "R", outFile = "result_json_output.json") {
   lintr_in <- data.table::as.data.table(lintr::lint_dir("R"))
 
   mapping <-
