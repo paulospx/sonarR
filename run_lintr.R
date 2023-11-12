@@ -5,9 +5,9 @@
 # The output will contain the linting issues of your code that can be loaded
 # into SonarQube
 #h
-# You can learn more about package authoring with RStudio at:
+# You can learn more about sonarR authoring:
 #
-#   http://r-pkgs.had.co.nz/
+#  -https://github.com/paulospx/sonarR
 #
 
 sonarScan <- function(dir = "R", outFile = "result_json_output.json") {
