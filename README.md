@@ -4,6 +4,10 @@ R Linting Scanner for SonarQube.
 
 This package adds support for the R language into SonarQube. It uses the output from the `lintr` tool, which is processed by the plugin and uploaded into the SonarQube server. The plugin reports issues found by `lintr` (by processing its output) and has planned features such as syntax highlighting, code coverage, and code statistics.
 
+Linting Rules: 
+-  https://lintr.r-lib.org/reference/linters.html
+
+
 Linting helps maintain code quality and consistency, making it an essential part of any software development process.
 
 ## Features
