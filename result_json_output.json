@@ -1,0 +1,752 @@
+{
+  "issues": [
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Lines should not be more than 80 characters.",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 12,
+          "endLine": 12,
+          "startColum": 0,
+          "endColumn": 139
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Lines should not be more than 80 characters.",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 14,
+          "endLine": 14,
+          "startColum": 0,
+          "endColumn": 100
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Lines should not be more than 80 characters.",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 54,
+          "endLine": 54,
+          "startColum": 0,
+          "endColumn": 93
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Lines should not be more than 80 characters.",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Lines should not be more than 80 characters.",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule17",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "Lines should not be more than 80 characters.",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 87,
+          "endLine": 87,
+          "startColum": 0,
+          "endColumn": 81
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'type'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'type'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'effortMinutes'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'effortMinutes'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'severity'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'severity'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'ruleId'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'ruleId'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 68,
+          "endLine": 68,
+          "startColum": 0,
+          "endColumn": 162
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'engineId'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 70,
+          "endLine": 70,
+          "startColum": 0,
+          "endColumn": 33
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 70,
+          "endLine": 70,
+          "startColum": 0,
+          "endColumn": 33
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'startLine'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'line_number'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'line_number'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'endLine'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'startColum'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'endColumn'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'endColumn'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'endColumn'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 73,
+          "endLine": 73,
+          "startColum": 0,
+          "endColumn": 144
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'engineId'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 80,
+          "endLine": 80,
+          "startColum": 0,
+          "endColumn": 43
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'ruleId'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 81,
+          "endLine": 81,
+          "startColum": 0,
+          "endColumn": 39
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'severity'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 82,
+          "endLine": 82,
+          "startColum": 0,
+          "endColumn": 43
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'type'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 83,
+          "endLine": 83,
+          "startColum": 0,
+          "endColumn": 35
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'filename'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 86,
+          "endLine": 86,
+          "startColum": 0,
+          "endColumn": 45
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for '.'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 87,
+          "endLine": 87,
+          "startColum": 0,
+          "endColumn": 81
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'startLine'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 87,
+          "endLine": 87,
+          "startColum": 0,
+          "endColumn": 81
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'endLine'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 87,
+          "endLine": 87,
+          "startColum": 0,
+          "endColumn": 81
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'startColum'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 87,
+          "endLine": 87,
+          "startColum": 0,
+          "endColumn": 81
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'endColumn'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 87,
+          "endLine": 87,
+          "startColum": 0,
+          "endColumn": 81
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'effortMinutes'",
+        "filePath": "R\\prepare_for_sonar_qube.R",
+        "textRange": {
+          "startLine": 89,
+          "endLine": 89,
+          "startColum": 0,
+          "endColumn": 52
+        }
+      },
+      "effortMinutes": 5
+    }
+  ]
+}

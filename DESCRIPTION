@@ -1,9 +1,9 @@
 Package: sonarR
 Type: Package
 Title: This package adds support for the R language into SonarQube
-Version: 0.9.3
-Author: Ania Rusinek <> and Paulo P. <pssp25@hotmail.com>
-Maintainer: The package maintainer <pssp25@hotmail.com>
+Version: 0.9.4
+Author: Ania R. <annarusinek@yahoo.ca> and Paulo P. <pssp25@hotmail.com>
+Maintainer: The package maintainer <pssp25@hotmail.com> <annarusinek@yahoo.ca>
 Description: This package adds support for the R language into SonarQube. 
   It uses output from the `lintr` tool, which is processed by the plugin and 
   uploaded into the SonarQube server. The plugin reports issues 
@@ -12,3 +12,9 @@ Description: This package adds support for the R language into SonarQube.
 License: MIT
 Encoding: UTF-8
 LazyData: true
+Depends: 
+  data.table (>= 1.14.8),
+  jsonlite (>= 1.8.7),
+  vctrs (>= 0.6.4),
+  lintr (>= 3.1.0)
+RoxygenNote: 7.2.3
