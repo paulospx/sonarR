@@ -63,7 +63,7 @@ The mapping table generates the issue type, effort and severity required to inge
 | Linter                           | Issue Type | Effort Minutes | Severity |
 | -------------------------------- | ---------- | -------------- | -------- |
 | object_usage_linter              | CODE_SMELL | 5              | MINOR    |
-| absolute_path_linter             | CODE_SMELL | 5              | MINOR    |
+| absolute_path_linter             | CODE_SMELL | 5              | MAJOR    |
 | nonportable_path_linter          | CODE_SMELL | 5              | MINOR    |
 | pipe_continuation_linter         | CODE_SMELL | 5              | MINOR    |
 | assignment_linter                | CODE_SMELL | 5              | MINOR    |
