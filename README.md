@@ -95,7 +95,6 @@ The mapping table generates the issue type, effort and severity required to inge
 | undesirable_function_linter      | CODE_SMELL | 5              | MINOR    |
 | undesirable_operator_linter      | CODE_SMELL | 5              | MINOR    |
 | unneeded_concatenation_linter    | CODE_SMELL | 5              | MINOR    |
-| other non specified in the table | CODE_SMELL | 5              | MINOR    |
 | any_duplicated_linter            | CODE_SMELL | 5              | MINOR    |
 | any_is_na_linter                 | CODE_SMELL | 5              | MINOR    |
 | backport_linter                  | CODE_SMELL | 5              | MINOR    |
@@ -167,6 +166,7 @@ The mapping table generates the issue type, effort and severity required to inge
 | vector_logic_linter              | CODE_SMELL | 5              | MINOR    |
 | whitespace_linter                | CODE_SMELL | 5              | MINOR    |
 | yoda_test_linter                 | CODE_SMELL | 5              | MINOR    |
+| other non specified in the table | CODE_SMELL | 5              | MINOR    |
 
 
 
