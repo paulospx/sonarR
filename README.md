@@ -57,6 +57,18 @@ Linting helps maintain code quality and consistency, making it an essential part
 
 2. The tool will scan your R code in the `/R` folder and generate a JSON report named `linting_report.json`.
 
+Issue field description for Sonar.
+
+- `engineId` - string
+- `ruleId` - string
+- `primaryLocation` - Location object
+- `type` - string. One of BUG, VULNERABILITY, CODE_SMELL
+- `severity` - string. One of BLOCKER, CRITICAL, MAJOR, MINOR, INFO
+- `effortMinutes` - integer, optional. Defaults to 0
+- `secondaryLocations` - array of Location objects, optional
+
+The mapping table generates the issue type, effort and severity required to ingest the information into SonarQube.
+
 It uses the following mapping to adjust the data to SonarQube. 
 The mapping table generates the issue type, effort and severity required to ingest the information into SonarQube.
 
@@ -170,11 +182,11 @@ The mapping table generates the issue type, effort and severity required to inge
 
 
 
-3. You can now import this JSON report into SonarQube for monitoring your R project's software quality.
+3. You can now import this JSON report into SonarQube to monitor your R project's software quality.
 
 ## Configuration
 
-You can configure the scanner by modifying the `config.json` file. You can customize options such as linting rules, file extensions, and more.
+You can configure the scanner by modifying the `config.json` file. You can customize options such as linting rules, file extensions, etc.
 
 Example `config.json`:
 
@@ -197,7 +209,7 @@ If you would like to contribute to this project, please follow these steps:
 5. Push your changes to your fork on GitHub.
 6. Create a pull request from your fork to this repository.
 
-Please ensure that your code follows the linting rules specified in the `config.json` file.
+Please ensure your code follows the linting rules specified in the `config.json` file.
 
 ## Issues
 
