@@ -41,7 +41,7 @@ Linting helps maintain code quality and consistency, making it an essential part
 3. Install the required dependencies.
 
    ```bash
-   Rscript -e "install.packages('data.table')"
+   Rscript -e 'install.packages("data.table")'
    Rscript -e 'install.packages("lintr")'
    Rscript -e 'install.packages("devtools")'
    Rscript -e 'install.packages("roxygen2")'
