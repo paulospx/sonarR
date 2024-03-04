@@ -1,0 +1,55 @@
+{
+  "issues": [
+    {
+      "engineId": "test",
+      "ruleId": "rule56",
+      "severity": "MINOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'LMMPointer'",
+        "filePath": "test_rule56.R",
+        "textRange": {
+          "startLine": 2,
+          "endLine": 2,
+          "startColum": 0,
+          "endColumn": 44
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule56",
+      "severity": "MINOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "message": "no visible global function definition for ':='",
+        "filePath": "test_rule56.R",
+        "textRange": {
+          "startLine": 3,
+          "endLine": 3,
+          "startColum": 0,
+          "endColumn": 32
+        }
+      },
+      "effortMinutes": 5
+    },
+    {
+      "engineId": "test",
+      "ruleId": "rule56",
+      "severity": "MINOR",
+      "type": "BUG",
+      "primaryLocation": {
+        "message": "no visible binding for global variable 'LMMPointer'",
+        "filePath": "test_rule56.R",
+        "textRange": {
+          "startLine": 3,
+          "endLine": 3,
+          "startColum": 0,
+          "endColumn": 32
+        }
+      },
+      "effortMinutes": 5
+    }
+  ]
+}

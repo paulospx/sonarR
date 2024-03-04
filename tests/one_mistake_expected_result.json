@@ -2,9 +2,9 @@
   "issues": [
     {
       "engineId": "test",
-      "ruleId": "rule11",
+      "ruleId": "rule56",
       "severity": "MINOR",
-      "type": "CODE_SMELL",
+      "type": "BUG",
       "primaryLocation": {
         "message": "no visible global function definition for 'dcast.data.table'",
         "filePath": "one_mistake.R",
