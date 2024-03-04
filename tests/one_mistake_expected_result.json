@@ -1,0 +1,21 @@
+{
+  "issues": [
+    {
+      "engineId": "test",
+      "ruleId": "rule11",
+      "severity": "MINOR",
+      "type": "CODE_SMELL",
+      "primaryLocation": {
+        "message": "no visible global function definition for 'dcast.data.table'",
+        "filePath": "one_mistake.R",
+        "textRange": {
+          "startLine": 6,
+          "endLine": 6,
+          "startColum": 0,
+          "endColumn": 45
+        }
+      },
+      "effortMinutes": 5
+    }
+  ]
+}

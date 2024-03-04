@@ -39,8 +39,8 @@ Linting helps maintain code quality and consistency, making it an essential part
    ```bash
    Rscript -e "install.packages('data.table')"
    Rscript -e 'install.packages("lintr")'
-   Rscript -e 'install.packages("devtools")'
-   Rscript -e 'install.packages("roxygen2")'
+   Rscript -e 'install.packages("jsonlite")'
+   Rscript -e 'install.packages("vctrs")'
    ```
 
 ## Usage
@@ -48,13 +48,19 @@ Linting helps maintain code quality and consistency, making it an essential part
 1. Run the scanner on your R project directory.
 
    ```bash
-   sonarR::scan(dir="R",outFile = "result.json")
+   run_lintr_check(prepare_for_sonar_qube = TRUE, output_file_name = linting_report.json)
    ```
 
 2. The tool will scan your R code in the `/R` folder and generate a JSON report named `linting_report.json`.
 
 It uses the following mapping to adjust the data to SonarQube. 
 The mapping table generates the issue type, effort and severity required to ingest the information into SonarQube.
+You can provide your own mappig via mapping variable of run_lintr_check function
+
+   ```bash
+   run_lintr_check(mapping = mapping, prepare_for_sonar_qube = TRUE, output_file_name = linting_report.json)
+   ```
+
 
 | Linter                             | Issue Type | Effort Minutes | Severity |
 | ---------------------------------- | ---------- | -------------- | -------- |
