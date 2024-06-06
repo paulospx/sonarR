@@ -7,6 +7,8 @@ This package adds support for the R language into SonarQube. It uses the output 
 Linting Rules: 
 -  https://lintr.r-lib.org/reference/linters.html
 
+Format of the JSON produced:
+- https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
 
 Linting helps maintain code quality and consistency, making it an essential part of any software development process.
 
